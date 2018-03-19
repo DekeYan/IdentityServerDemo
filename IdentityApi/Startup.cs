@@ -40,9 +40,8 @@ namespace IdentityApi
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.UseMvc();
             app.UseAuthentication();
+            app.UseMvc();
         }
     }
 }
